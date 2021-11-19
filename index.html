@@ -41,8 +41,9 @@
         </button>
         <div id="toggle" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-                <a href="#" class="contact"><b>Contact Us</b></a>   
-                <a href="#" class="btn btn-download"><b>Download</b></a> 
+               <li class="nav-item"><a href="#" class="nav-link"><b>Contact Us</b></a></li>  
+               <li class="nav-item"><a href="#" class="nav-links">Download</a></li>  
+                </ul>
                 </div>                          
         </div>
        </nav> 
@@ -60,7 +61,12 @@
                     <form action="" class="form-controls">
                          <div class="col-md-12">
                              <label for="" class="">Email</label>
-                             <input type="email" placeholder="Enter your Email" class="form-control mb-2" required="true" maxlength="30">
+                             <div class="input-group mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email" id="mail" name="email" required="true" maxlength="30">
+                                <div class="input-group-append">
+                                  <span class="input-group-text">@gmail.com</span>
+                                </div>
+                              </div>
                          </div>  
                          <div class="col-md-12">
                              <label for="" class="">Password</label>

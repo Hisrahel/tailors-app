@@ -30,23 +30,27 @@ body{
 .pics{
     height: 10vh;
 }
-.contact{
-    color: red;
-   padding-right: 2rem;
+.nav-link{
+    color: red !important;
+   margin-right: 2rem;
     font-size: 17px;
     padding-top:5px;
 }
-.contact:hover{
+.nav-link:hover{
     text-decoration: none;
     color: red;
 }
-.btn-download{
+.nav-links{
     background: red; 
     color: white;
     margin-right: 2rem;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: 600;
 }
-.btn-download:hover{
+.nav-links:hover{
     color: white;
+    text-decoration: none;
 }
 .btn-light{
     background-color: red; 
@@ -70,17 +74,17 @@ body{
     .pics{
         height: 5vh;
     }
-    .btn-download{
+    .nav-links{
         background: white;
         color: red;
-        margin-left:18rem;
+        margin-left:16rem;
     }
-    .btn-download:hover{
+    .nav-links:hover{
         color: red;
     }
-    .contact{
+    .nav-link{
         color: red;
-        margin-left:303px;
+        margin-left:266px;
         font-size: 15px;
     }
     .navbar-brands{
